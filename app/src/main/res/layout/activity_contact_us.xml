@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity"
+    android:padding="10dp"
+    android:layout_margin="@dimen/padding_large"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/large_logo"
+        android:layout_marginTop="@dimen/padding_extra_large"
+        android:id="@+id/logo_id"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotline:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="+8801687035500"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="sudiptacse.seu@gmail.com"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="114, Wireless-gate,\nMohakhali, Dhaka-1212"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="16dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright-2018 TCML SoftTechBD"
+        android:textStyle="bold"
+        android:textColor="#ff22"
+        android:layout_marginTop="90dp"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"/>
+</LinearLayout>

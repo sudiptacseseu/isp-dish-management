@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/background_color"
+    android:gravity="center"
+    tools:context=".Home2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCTNBD DISH"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/addUserCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/add_user"
+                    android:background="@drawable/rectanagle_background_yellow"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_yellow"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option3"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/displayallCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/display"
+                    android:background="@drawable/rectangle_background_blue"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_blue"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/updateCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/update"
+                    android:background="@drawable/rectangle_background_sweet"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_sweet"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/duebillCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/due"
+                    android:background="@drawable/rectangle_background_green"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_green"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option6"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/totaldueCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/total"
+                    android:background="@drawable/rectangle_background_paste"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_paste"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option8"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/deleteUserCardViewId"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/delete_user"
+                    android:background="@drawable/rectangle_background_purple"
+                    />
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/material_deep_purple"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/option7"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

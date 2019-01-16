@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedBack_Activity"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+
+        <ImageView
+            android:id="@+id/logo_id"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_too_large"
+            android:src="@drawable/large_logo"
+
+            />
+
+        <EditText
+            android:id="@+id/editText1_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_id"
+            android:layout_marginLeft="@dimen/padding_too_large"
+            android:layout_marginRight="@dimen/padding_too_large"
+            android:layout_marginTop="@dimen/padding_large"
+            android:drawableLeft="@drawable/username_icon"
+            android:hint="Email:"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingTop="@dimen/padding_small" />
+
+        <EditText
+            android:id="@+id/editText2_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1_Id"
+            android:layout_marginLeft="@dimen/padding_too_large"
+            android:layout_marginRight="@dimen/padding_too_large"
+            android:layout_marginTop="@dimen/padding_large"
+            android:drawableLeft="@drawable/password_icon"
+            android:hint="Password:"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingTop="@dimen/padding_small" />
+
+        <EditText
+            android:id="@+id/editText3_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2_Id"
+            android:layout_marginLeft="@dimen/padding_too_large"
+            android:layout_marginRight="@dimen/padding_too_large"
+            android:layout_marginTop="@dimen/padding_large"
+            android:drawableLeft="@drawable/message_icon"
+            android:hint="Message:"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingTop="@dimen/padding_small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:layout_below="@id/editText3_Id"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sendButtonId"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_too_large"
+                android:layout_marginRight="@dimen/padding_medium"
+                android:layout_marginTop="@dimen/padding_too_large"
+                android:layout_toLeftOf="@+id/clearButton_id"
+                android:background="@drawable/rounded_login"
+                android:gravity="center_horizontal"
+                android:text="Send"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/clearButton_id"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/padding_medium"
+                android:layout_marginRight="@dimen/padding_too_large"
+                android:layout_marginTop="@dimen/padding_too_large"
+                android:background="@drawable/rounded_login"
+                android:gravity="center_horizontal"
+                android:text="Clear"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
+
+

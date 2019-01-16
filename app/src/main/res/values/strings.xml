@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SctnBD</string>
+    <string name="phone_no">Phone number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="aleart_title">Attention!</string>
+    <string name="aleart_message">Do you want to exit?</string>
+
+    <string name="option1">Internet Service Provider</string>
+    <string name="option2">Satellite Dish</string>
+    <string name="option3">Add User</string>
+    <string name="option4">Display All</string>
+    <string name="option5">Update</string>
+    <string name="option6">Due Bill</string>
+    <string name="option7">Delete User</string>
+    <string name="option8">Total Due</string>
+    <string name="option9">Update Contact</string>
+    <string name="option10">Update User IP</string>
+    <string name="option11">Update Payment</string>
+    <string name="option12">Update All Info</string>
+
+    <string-array name="spinner_options">
+        <item>Due</item>
+        <item>Paid</item>
+    </string-array>
+
+</resources>
